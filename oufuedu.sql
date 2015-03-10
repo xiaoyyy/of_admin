@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿# MySQL-Front 5.1  (Build 1.28)
+=======
 # MySQL-Front 5.1  (Build 1.28)
+>>>>>>> origin/master
 
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE */;
 /*!40101 SET SQL_MODE='NO_ENGINE_SUBSTITUTION' */;
@@ -77,6 +81,29 @@ INSERT INTO `o_applytip` VALUES (10,'233333333333333333333','33',1425739040,0,33
 UNLOCK TABLES;
 
 #
+<<<<<<< HEAD
+# Source for table o_aus
+#
+
+DROP TABLE IF EXISTS `o_aus`;
+CREATE TABLE `o_aus` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `aus` text,
+  PRIMARY KEY (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+#
+# Dumping data for table o_aus
+#
+LOCK TABLES `o_aus` WRITE;
+/*!40000 ALTER TABLE `o_aus` DISABLE KEYS */;
+
+/*!40000 ALTER TABLE `o_aus` ENABLE KEYS */;
+UNLOCK TABLES;
+
+#
+=======
+>>>>>>> origin/master
 # Source for table o_carousel
 #
 
@@ -102,6 +129,8 @@ LOCK TABLES `o_carousel` WRITE;
 UNLOCK TABLES;
 
 #
+<<<<<<< HEAD
+=======
 # Source for table o_country
 #
 
@@ -126,6 +155,7 @@ LOCK TABLES `o_country` WRITE;
 UNLOCK TABLES;
 
 #
+>>>>>>> origin/master
 # Source for table o_eassy
 #
 
@@ -243,6 +273,89 @@ LOCK TABLES `o_feedback` WRITE;
 UNLOCK TABLES;
 
 #
+<<<<<<< HEAD
+# Source for table o_hk
+#
+
+DROP TABLE IF EXISTS `o_hk`;
+CREATE TABLE `o_hk` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `hk` text,
+  PRIMARY KEY (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+#
+# Dumping data for table o_hk
+#
+LOCK TABLES `o_hk` WRITE;
+/*!40000 ALTER TABLE `o_hk` DISABLE KEYS */;
+
+/*!40000 ALTER TABLE `o_hk` ENABLE KEYS */;
+UNLOCK TABLES;
+
+#
+# Source for table o_singapore
+#
+
+DROP TABLE IF EXISTS `o_singapore`;
+CREATE TABLE `o_singapore` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `singapore` text,
+  PRIMARY KEY (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+#
+# Dumping data for table o_singapore
+#
+LOCK TABLES `o_singapore` WRITE;
+/*!40000 ALTER TABLE `o_singapore` DISABLE KEYS */;
+
+/*!40000 ALTER TABLE `o_singapore` ENABLE KEYS */;
+UNLOCK TABLES;
+
+#
+# Source for table o_uk
+#
+
+DROP TABLE IF EXISTS `o_uk`;
+CREATE TABLE `o_uk` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `uk` text,
+  PRIMARY KEY (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+#
+# Dumping data for table o_uk
+#
+LOCK TABLES `o_uk` WRITE;
+/*!40000 ALTER TABLE `o_uk` DISABLE KEYS */;
+
+/*!40000 ALTER TABLE `o_uk` ENABLE KEYS */;
+UNLOCK TABLES;
+
+#
+# Source for table o_usa
+#
+
+DROP TABLE IF EXISTS `o_usa`;
+CREATE TABLE `o_usa` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `usa` text,
+  PRIMARY KEY (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+#
+# Dumping data for table o_usa
+#
+LOCK TABLES `o_usa` WRITE;
+/*!40000 ALTER TABLE `o_usa` DISABLE KEYS */;
+
+/*!40000 ALTER TABLE `o_usa` ENABLE KEYS */;
+UNLOCK TABLES;
+
+#
+=======
+>>>>>>> origin/master
 # Source for table o_user
 #
 
